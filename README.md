@@ -1,10 +1,12 @@
 # AIstock
 尝试运用深度学习的方法理解A股走势
-DL_xxx.py 用于训练, DL_xxx_binary , 二分法归类，预测涨跌。  DL_xxx_category.py 更详细的分类，用于预测涨跌区间。
-generate_training_data.py  用于生成训练数据
-load_data.py  -- 由于tushare API 不是很稳定，将数据下载并保存至本地csv文件
-predict_stock.py -- 单只股票的预测
-predict_batch_hs300.py  -- 批量沪深300 股票预测
+  DL_xxx.py 用于训练, 
+  DL_xxx_binary , 二分法归类，预测涨跌。  
+  DL_xxx_category.py 更详细的分类，用于预测涨跌区间。
+  generate_training_data.py  用于生成训练数据
+  load_data.py  -- 由于tushare API 不是很稳定，将数据下载并保存至本地csv文件
+  predict_stock.py -- 单只股票的预测
+  predict_batch_hs300.py  -- 批量沪深300 股票预测
 
 目前存在的问题： 存在严重过拟合的情况，另外这个模型的输入特征数太少。
 loss, accuracy = model.evaluate(X_test, Y_test)
