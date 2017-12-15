@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Created on Wed Oct 25 13:23:12 2017
 
@@ -17,6 +17,7 @@ import numpy as np
 import random
 from sklearn import preprocessing
 
+# twindow is number of days to look before !
 twindow = 30
 npredict = 3
 # Total number of training data should be 300 * ntimes  rows.
