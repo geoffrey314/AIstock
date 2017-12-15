@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Created on Wed Sep  6 11:15:10 2017
 
@@ -10,6 +10,8 @@ import os
 import numpy as np
 import pandas as pd
 from keras.utils import np_utils
+
+# Add test comments description
 
 def regular_y ( y_value ):
     if ( y_value < -0.1 ) :
